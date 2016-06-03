@@ -1,0 +1,47 @@
+body {
+  background-image: url("../img/bg.jpg");
+  background-color: #cccccc;
+}
+
+#day{
+  position: absolute;
+  margin-left: 591px;
+  margin-top: 50px;
+}
+
+#content{
+  margin-left: -812px;
+}
+.mnpl_player {
+  direction: rtl;
+}
+.photo{
+  float: left;
+}
+#main{
+  width: 1042px;
+  height: 690px;
+}
+#left-content{
+  width: 320px;
+  height: 690px;
+  float: left;
+}
+#right-content{
+  width: 320px;
+  height: 690px;
+  float: left;
+  margin-left: 40px;
+}
+#player{
+  width: 320px;
+  height: 400px;
+  float: left;
+  margin-left: 40px;
+}
+.cc{
+  float: left;
+  margin-left: 5px;
+  height: 30px;
+  height: 340px;
+}

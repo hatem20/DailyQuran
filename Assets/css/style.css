@@ -1,0 +1,61 @@
+@font-face{font-family:'HelveticaNeue'; src:url('../fnt/helveticaneue-bold.ttf') format('truetype'); font-weight:bold; font-style:normal;}
+@font-face{font-family:'HelveticaNeue'; src:url('../fnt/helveticaneue-regular.ttf') format('truetype'); font-weight:normal; font-style:normal;}
+/* arabic */
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amiri'), local('Amiri-Regular'), url(http://fonts.gstatic.com/s/amiri/v7/Pmj8RyKsUWpsaz_klfK4LA.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amiri'), local('Amiri-Regular'), url(http://fonts.gstatic.com/s/amiri/v7/k2MEYNRoSfd5tdYW9SpWiA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* arabic */
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amiri Bold'), local('Amiri-Bold'), url(http://fonts.gstatic.com/s/amiri/v7/mmHwJz0KRs9eU5Fnp3rH_hTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin */
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amiri Bold'), local('Amiri-Bold'), url(http://fonts.gstatic.com/s/amiri/v7/8b_RNX_MuT-wzF5O8XZEVvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+.mnpl{background:url('../img/mnpl_bg.png') 0 0 repeat;}
+.mnpl .ui-slider{position:absolute; cursor:pointer; height:8px; background:rgba(36, 36, 36, 0.6); border:1px solid rgba(0, 0, 0, 0.6); border-radius:5px;}
+.mnpl .ui-slider-handle{width:14px; height:14px; position:absolute; top:-3px; margin-left:-7px; z-index:200; background:url('../img/mnpl_tlb_btns.png') -84px bottom no-repeat; outline:none;}
+.mnpl .ui-widget-header{background:url(../img/mnpl_sl_active.png) repeat-x 0 0; height:8px; left:0; top:0; position:absolute; border-radius:5px 0 0 5px;}
+
+.mnpl_player{font-family:'HelveticaNeue'; color:#fff; position:absolute; width:320px; margin:-164px 0 0 -155px; top:50%; left:50%; box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.5); height:400px; border:1px solid #000; border-radius:3px; background:url('../img/playlist_bg.png') 0 0 repeat;}
+.mnpl_player .mnpl_toolbar{position:absolute; width:auto; height:30px; left:0; right:0; bottom:225px; border-top:1px solid #000; background-color:#222;}
+.mnpl_player .mnpl_toolbar .mnpl_tlb_prev{position:absolute; width:28px; height:30px; left:0; top:0; background:url('../img/mnpl_tlb_btns.png') 0 0 no-repeat; cursor:pointer;}
+.mnpl_player .mnpl_toolbar .mnpl_tlb_stop{position:absolute; width:28px; height:30px; left:28px; top:0; background:url('../img/mnpl_tlb_btns.png') -116px 0 no-repeat; cursor:pointer;}
+.mnpl_player .mnpl_toolbar .mnpl_tlb_stop.isplay{background-position:-28px 0;}
+.mnpl_player .mnpl_toolbar .mnpl_tlb_next{position:absolute; width:28px; height:30px; left:56px; top:0; background:url('../img/mnpl_tlb_btns.png') -56px 0 no-repeat; cursor:pointer; border-right:1px solid #000;}
+.mnpl_player .mnpl_long{position:absolute; left:122px; top:10px; width:148px;}
+.mnpl_player .mnpl_current{position:absolute; left:85px; top:0; padding:10px 0 0 9px; bottom:0; border-left:1px solid #2d2d2d; font-size:9px;}
+.mnpl_player .mnpl_all{position:absolute; left:282px; top:0; padding:10px 0 0; bottom:0; font-size:9px;}
+.mnpl_player .mnpl_art_bg{position:absolute; width:auto; height:auto; opacity:0.3; left:0; right:0; bottom:31px; top:0; background-repeat:no-repeat; background-position:center top; background-size:100% auto;}
+.mnpl_player .mnpl_cover{position:absolute; width:126px; height:126px; left:177px; top:10px; border-top:1px solid #141414; border-bottom:1px solid #000; border-left:1px solid #151515; border-right:1px solid #000; border-radius:5px; z-index:2;}
+.mnpl_player .mnpl_cover_next{position:absolute; width:126px; height:126px; left:177px; top:10px; border-top:1px solid #141414; border-bottom:1px solid #000; border-left:1px solid #151515; border-right:1px solid #000; border-radius:5px; z-index:1;}
+.mnpl_player .mnpl_title{font-family:'Amiri'; position:absolute; right:145px; top:21px; font-weight:bold; font-size:14px;}
+.mnpl_player .mnpl_author{font-family:'Amiri';position:absolute; right:145px; top:42px; font-weight:bold; font-size:18px; color:#999;}
+.mnpl_player li{float:left; width:10px; height:10px; padding-right:4px; background:url('../img/mnpl_tlb_btns.png') -84px 0 no-repeat; opacity:0.2;}
+.mnpl_player li.active{opacity:1;}
+.mnpl_player .mnpl_volume{position:absolute; left:43px; top:118px; width:102px;}
+.mnpl_player .mnpl_volume_min{position:absolute; left:24px; top:117px; width:12px; height:11px; background:url('../img/mnpl_tlb_btns.png') -98px bottom no-repeat;}
+.mnpl_player .mnpl_volume_max{position:absolute; left:156px; top:115px; width:18px; height:15px; background:url('../img/mnpl_tlb_btns.png') -98px 0 no-repeat;}
+.mnpl_playlist{background:url('../img/playlist_bg.png') 0 0 repeat; overflow-y:auto; position:absolute; width:auto; height:220px; border-top:1px solid #000; bottom:0; left:0; right:0;}
+.mnpl_playlist span{display:block; border-bottom:1px solid #000; padding:5px 20px; cursor:pointer; font-size:80%; opacity:0.8;}
+.mnpl_playlist span:hover{opacity:1;}
