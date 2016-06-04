@@ -8,3 +8,5 @@ every part is read by different sheikh by default and can be changed.
 
 Unfortunately some links in Assets/js/qur2anDB.js are depricated now 
 you can contribute adding links for you favourite shiekh.
+
+it was developped back in Feb. 2015
