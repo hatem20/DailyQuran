@@ -1,4 +1,6 @@
+<?php echo hi;?>
 <!DOCTYPE HTML>
+
 <html>
   <head>
     <meta charset="UTF-8"/>
